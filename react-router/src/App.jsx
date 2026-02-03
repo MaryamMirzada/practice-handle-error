@@ -13,9 +13,11 @@ import Home1 from "./pages/Home1";
 import Product1 from "./pages/Product1";
 import Contact1 from "./pages/Contact1";
 import Dashboard1 from "./pages/dushboard1.jsx/Dashboard1";
-function App() {
-  return (
-    <div>
+import Nav from "./components/Nav";
+import Hello from "./components/Nav";
+// function App() {
+  // return (
+    // <div>
       {/* <Navbar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
@@ -27,15 +29,21 @@ function App() {
           <Route path="setting" element={<Setting />}></Route>
         </Route>
       </Routes> */}
-      <Navbar1 />
-      <Routes>
+      {/* <Routes>
+        <Route path="/hello/:name" element={<Hello />} />
+      </Routes> */}
+      {/* <Navbar1 /> */}
+
+      {/* <Routes>
         <Route path="/" index element={<Home1 />}></Route>
         <Route path="/contact" element={<Contact1 />}></Route>
         <Route path="/product" element={<Product1 />}></Route>
         <Route path="dashboard" element={<Dashboard1 />}></Route>
-      </Routes>
-    </div>
-  );
-}
+      </Routes> */}
+    // </div>
+    
+   
+  // );
+// }
 
 export default App;
